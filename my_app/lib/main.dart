@@ -42,7 +42,7 @@ class _RandomWordsState extends State<RandomWords> {
         itemBuilder: /*1*/ (context, i) {
           if (i.isOdd){
             return Divider(
-              thickness: 10,
+              thickness: 1,
             ); /*2*/
           }
           final index = i ~/ 2; /*3*/
